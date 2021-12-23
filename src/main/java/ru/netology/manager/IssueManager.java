@@ -62,6 +62,10 @@ public class IssueManager {
         repo.openIssue(id);
     }
 
+    /**
+     * Сортирует список по возрастанию даты создания задачи
+     * @param issues список задач
+     */
     public void sortIssue(List<Issue> issues) {
         Collections.sort(issues);
     }
