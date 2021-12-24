@@ -3,7 +3,7 @@ package ru.netology.manager;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import ru.netology.domain.Issue;
-import ru.netology.ru.netology.repository.IssuesRepository;
+import ru.netology.repository.IssuesRepository;
 
 import java.util.*;
 

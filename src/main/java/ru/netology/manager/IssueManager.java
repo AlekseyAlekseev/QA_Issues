@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import ru.netology.domain.Issue;
-import ru.netology.ru.netology.repository.IssuesRepository;
+import ru.netology.repository.IssuesRepository;
 
 import java.util.Collections;
 import java.util.HashSet;

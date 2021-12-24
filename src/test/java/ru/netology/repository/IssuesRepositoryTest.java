@@ -1,9 +1,8 @@
-package ru.netology.ru.netology.repository;
+package ru.netology.repository;
 
 import org.junit.jupiter.api.Test;
 import ru.netology.domain.Issue;
 
-import java.text.ParseException;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
@@ -34,9 +33,6 @@ class IssuesRepositoryTest {
             false, label2, "Dasha", 20210813);
     private Issue issueJohnClose4 = new Issue(109165, "John", "bugfix", "debug",
             false, label2, "Kirill", 20211021);
-
-    IssuesRepositoryTest() throws ParseException {
-    }
 
 
     @Test
