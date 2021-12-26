@@ -94,7 +94,7 @@ public class IssuesRepository {
     public List<Issue> filterByLabelOpenIssue(HashSet<String> labels) {
         List<Issue> tmp = new ArrayList<>();
         for (Issue issue : issues) {
-            if (issue.getLabel() == labels && issue.isState()) {
+            if (issue.getLabel().equals(labels) && issue.isState()) {
                 tmp.add(issue);
             }
         }
@@ -110,7 +110,7 @@ public class IssuesRepository {
     public List<Issue> filterByLabelCloseIssue(HashSet<String> labels) {
         List<Issue> tmp = new ArrayList<>();
         for (Issue issue : issues) {
-            if (issue.getLabel() == labels && !issue.isState()) {
+            if (issue.getLabel().equals(labels) && !issue.isState()) {
                 tmp.add(issue);
             }
         }
